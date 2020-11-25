@@ -1,0 +1,62 @@
+@import "../1-setting/color";
+@import "../1-setting/mixin";
+
+* {
+    box-sizing: border-box;
+    color:$main-font-color;
+}
+
+html{
+    font-size:62.5%; 
+}
+
+body {
+    font-family: "Avenir Next", 'Mulish', 游ゴシック体, YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+    background-color:#fff;
+}
+
+/*共通*/
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: (1100/1280)*100vw;
+    margin: 0 auto;
+    
+        @media (max-width:670px) {
+            width: auto;
+            padding:0 1rem;
+            
+    }
+}
+
+/*下層ページ共通*/
+/*sub-top*/
+.sub-top-wrapper {
+    width:100%;
+    position: absolute;
+    top:11.3rem;
+    
+    
+    .sub-mv-text{
+        background-color:$service-bg-color;
+        height:28.7rem;
+        
+        h4{
+            font-size: 4.8rem;
+            color:white;
+            letter-spacing: 0.13em; 
+            padding:10.5rem 0 15.8rem 0;
+            margin:0 auto;
+            text-align: center;
+        }
+        
+    }
+    
+    .sub-mv{
+        width:100%;
+        height:62.9rem;
+        
+    }
+}

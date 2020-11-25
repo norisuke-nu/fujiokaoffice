@@ -1,0 +1,32 @@
+@import "../1-setting/color";
+@import "../1-setting/config";
+
+/*要素のフェードイン*/
+.fadein {
+	opacity : 0.1;
+	transform : translate(0, 20px);
+	transition : all 400ms;
+    transition-timing-function:$linear;
+    
+	&.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+}
+
+/*メインビジュアルスライド*/
+.swiper-container{
+    width:100%;
+    height:75.44rem; 
+}
+
+.swiper-slide{
+    z-index: -999;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;  //全画面表示
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;    
+}

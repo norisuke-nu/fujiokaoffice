@@ -1,0 +1,99 @@
+@mixin flex($justify,$align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap:wrap;
+}
+
+@mixin gradient($degree){
+    background: rgb(54,77,106);
+    background: linear-gradient($degree, rgba(54,77,106,1) 0%, rgba(89,157,192,1) 100%);
+}
+
+@mixin button01($width){
+    width:($width/1280)*100vw;
+    background-color:$service-bg-color;
+    border-radius: 35px;
+        a{
+            color:white;
+            font-size:1.6rem;
+            display: block;
+            text-align: center;
+            padding:2.7rem 0;
+
+        }  
+}
+
+@mixin button02($width){
+    width:($width/1280)*100vw;
+    background:linear-gradient(90deg, rgba(54,77,106,1) 0%, rgba(89,157,192,1) 100%);
+    border-radius: 100px;
+        a{
+            color:white;
+            font-size:3.2rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            display: block;
+            text-align: center;
+            padding:2.7rem 0;
+
+        }  
+}
+
+@mixin service-text01{
+            h3,p{
+                font-size:2.4rem;
+                
+            }
+
+            h3{
+                background-color:$service-bg-color;
+                padding:2.1rem 0rem;
+                width:(93/1280)*100vw;
+                text-align: center;
+                color:white;
+                letter-spacing: 0.15em;
+
+            }
+
+            p{
+                color:$service-subtit-color;
+                font-weight: 600;
+                padding-left:4.5rem;
+                letter-spacing: 0.11em;
+
+            }
+}
+
+@mixin price-table01{
+        table{
+          width:100%;
+          margin-bottom:4.3rem;
+        }
+        
+        th,td{
+          padding:1.5rem 0;
+        }
+        
+        th{
+            border-bottom:9px solid $service-bg-color;
+            color:$service-bg-color;
+            text-align: left;            
+            
+            &:nth-child(1){
+                width:(578/1280)*100vw;
+            }
+            &:nth-child(2){
+                width:(277/1280)*100vw;
+            }
+            &:nth-child(3){
+                width:(360/1280)*100vw;
+            }
+            
+        }
+    
+        td{
+            border:1px solid $service-subtit-color;
+            height:4.3rem;
+        }
+}
