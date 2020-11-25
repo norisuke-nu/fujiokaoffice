@@ -1,0 +1,1242 @@
+@charset "UTF-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+/* line 9, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* line 30, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 34, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 39, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+nav ul {
+  list-style: none; }
+
+/* line 43, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 47, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 53, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+/* line 62, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+/* line 69, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* line 76, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+del {
+  text-decoration: line-through; }
+
+/* line 80, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+/* line 85, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+/* line 91, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* line 100, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_reset.scss */
+input, select {
+  vertical-align: middle; }
+
+@font-face {}/*フォント*/
+/* line 11, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_font.scss */
+h1 {
+  font-family: "Avenir Next"; }
+
+/* line 16, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_font.scss */
+h2 {
+  font-family: 游ゴシック体, YuGothic,  游ゴシック, 'Yu Gothic'; }
+
+/* line 21, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_font.scss */
+h3 {
+  font-family: "Avenir Next";
+  font-weight: 600; }
+
+/* line 26, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_font.scss */
+h4 {
+  font-family: "Avenir Next";
+  font-weight: 700; }
+
+/* line 36, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_font.scss */
+p {
+  font-family: 游ゴシック体, YuGothic,  游ゴシック, 'Yu Gothic';
+  font-weight: normal; }
+
+/*テキストスタイル*/
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/* line 4, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+* {
+  box-sizing: border-box;
+  color: #A4ABB0; }
+
+/* line 9, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 13, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+body {
+  font-family: "Avenir Next", 'Mulish', 游ゴシック体, YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+  background-color: #fff; }
+
+/*共通*/
+/* line 19, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+a {
+  text-decoration: none; }
+
+/* line 23, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+.container {
+  width: 85.9375vw;
+  margin: 0 auto; }
+  @media (max-width: 670px) {
+    /* line 23, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+    .container {
+      width: auto;
+      padding: 0 1rem; } }
+
+/*下層ページ共通*/
+/*sub-top*/
+/* line 36, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+.sub-top-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 11.3rem; }
+  /* line 42, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+  .sub-top-wrapper .sub-mv-text {
+    background-color: #202037;
+    height: 28.7rem; }
+    /* line 46, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+    .sub-top-wrapper .sub-mv-text h4 {
+      font-size: 4.8rem;
+      color: white;
+      letter-spacing: 0.13em;
+      padding: 10.5rem 0 15.8rem 0;
+      margin: 0 auto;
+      text-align: center; }
+  /* line 57, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_generic.scss */
+  .sub-top-wrapper .sub-mv {
+    width: 100%;
+    height: 62.9rem; }
+
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/*要素のフェードイン*/
+/* line 5, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_animation.scss */
+.fadein {
+  opacity: 0.1;
+  transform: translate(0, 20px);
+  transition: all 400ms;
+  transition-timing-function: cubic-bezier(0, 0, 1, 1); }
+  /* line 11, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_animation.scss */
+  .fadein.scrollin {
+    opacity: 1;
+    transform: translate(0, 0); }
+
+/*メインビジュアルスライド*/
+/* line 18, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_animation.scss */
+.swiper-container {
+  width: 100%;
+  height: 75.44rem; }
+
+/* line 23, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_animation.scss */
+.swiper-slide {
+  z-index: -999;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/*header*/
+/* line 6, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/2-layout/_l-header.scss */
+.header {
+  width: 100%;
+  /*min-height: 111px;*/
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  color: #444444;
+  background-color: #FAFAFA; }
+  /* line 15, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/2-layout/_l-header.scss */
+  .header-content {
+    width: 100%;
+    height: 100%;
+    margin: 4.6rem auto 4.6rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    /*@media (max-width:670px) {
+           margin:1.8rem 0 0 1.7rem;
+        }*/ }
+  /* line 30, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/2-layout/_l-header.scss */
+  .header-right {
+    width: 45.45455vw; }
+    /* line 33, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/2-layout/_l-header.scss */
+    .header-right ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap; }
+    /* line 38, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/2-layout/_l-header.scss */
+    .header-right a {
+      font-size: 1.6rem;
+      color: #444444;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      /*@media (max-width:670px) {
+                font-size:2.1rem;
+            }*/ }
+
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/*footer*/
+/* line 5, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/2-layout/_l-footer.scss */
+footer {
+  width: 100%;
+  height: 16.5rem;
+  background-color: #202037; }
+
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/*top*/
+/* line 5, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.top-wrapper {
+  position: relative;
+  top: 11.3rem;
+  margin-bottom: 60.7rem; }
+
+/* line 11, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.mv-text {
+  position: absolute;
+  top: 22.6rem;
+  left: 13.1rem;
+  line-height: 1.5;
+  z-index: 999; }
+  @media (max-width: 670px) {
+    /* line 11, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+    .mv-text {
+      position: absolute;
+      top: 15rem; } }
+  /* line 22, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .mv-text h1 {
+    font-size: 6.4rem;
+    letter-spacing: 0.13em;
+    color: #fff; }
+  /* line 28, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .mv-text p {
+    font-size: 2.4rem;
+    color: #fff;
+    letter-spacing: 0.1em;
+    margin-top: 1.3rem; }
+
+/* line 36, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.top-text {
+  width: 56.71875vw;
+  position: absolute;
+  top: 61.8rem;
+  left: 0;
+  background: #364d6a;
+  background: linear-gradient(90deg, #364d6a 0%, #599dc0 100%);
+  z-index: 999; }
+  /* line 44, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .top-text div {
+    width: 34.84375vw;
+    margin: 9.7rem auto 6.8rem auto; }
+    /* line 50, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+    .top-text div h2 {
+      font-size: 2.4rem;
+      color: #fff;
+      font-weight: normal;
+      letter-spacing: 0.08em;
+      line-height: 1.3;
+      margin-bottom: 4.5rem; }
+    /* line 60, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+    .top-text div p {
+      font-size: 1.6rem;
+      color: #fff;
+      letter-spacing: 0.15em;
+      line-height: 2; }
+    @media (max-width: 670px) {
+      /* line 44, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+      .top-text div {
+        font-size: 6rem;
+        margin-bottom: 1rem; } }
+
+/* news */
+/* line 76, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.news {
+  width: 50.23438vw;
+  position: absolute;
+  top: 82.6rem;
+  right: 0;
+  background-color: #FAFAFA;
+  z-index: 999; }
+  /* line 84, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .news div {
+    width: 38.20312vw;
+    margin: 8.8rem auto 6.5rem 4.9rem; }
+    /* line 89, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+    .news div h3 {
+      font-size: 2.4rem;
+      letter-spacing: 0.13em;
+      margin-bottom: 4.1rem; }
+  /* line 97, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .news .news-table {
+    border-collapse: separate;
+    width: 39.0625vw; }
+    /* line 102, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+    .news .news-table tr {
+      color: #1C1C1C; }
+    /* line 106, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+    .news .news-table th {
+      color: #1C1C1C;
+      font-size: 1.6rem;
+      padding: 0 4.7rem 0 0.6rem; }
+    /* line 112, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+    .news .news-table td {
+      color: #1C1C1C;
+      font-size: 1.4rem;
+      padding-bottom: 4.7rem; }
+
+/* service */
+/* line 125, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.service h4 {
+  font-size: 4.8rem;
+  letter-spacing: 0.13em;
+  margin-bottom: 6.8rem; }
+
+/* line 131, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.service .button01 {
+  width: 23.28125vw;
+  background-color: #202037;
+  border-radius: 35px;
+  margin: 0 auto 14.1rem auto; }
+  /* line 17, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+  .service .button01 a {
+    color: white;
+    font-size: 1.6rem;
+    display: block;
+    text-align: center;
+    padding: 2.7rem 0; }
+
+/* line 142, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.service-articles ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 5.6rem; }
+
+/* line 147, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.service-articles li {
+  width: 25.625vw;
+  list-style-type: none; }
+  /* line 151, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .service-articles li img {
+    width: 100%; }
+  /* line 156, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .service-articles li .service-text {
+    width: 100%;
+    margin: 0 auto; }
+    /* line 160, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+    .service-articles li .service-text .title {
+      position: relative;
+      top: -2.4rem;
+      width: 22.89062vw;
+      margin: 0 auto 0.3rem auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center; }
+      /* line 168, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+      .service-articles li .service-text .title div {
+        width: 4.6875vw;
+        padding: 1.9rem 0;
+        background-color: #202037;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.13em;
+        color: white; }
+      /* line 178, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+      .service-articles li .service-text .title p {
+        width: 17.73438vw;
+        padding: 1.4rem 0;
+        background-color: white;
+        border: 3px solid #202037;
+        font-size: 2.4rem;
+        font-weight: bold;
+        color: #212138; }
+    /* line 191, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+    .service-articles li .service-text .text-contents {
+      width: 22.89062vw;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.126em; }
+
+/* blog */
+/* line 205, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.blog {
+  border-top: 1px solid #E2E2E2;
+  margin-bottom: 21.5rem;
+  padding-top: 11.7rem; }
+  /* line 211, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .blog h4 {
+    font-size: 4.8rem;
+    letter-spacing: 0.13em;
+    margin-bottom: 5.1rem; }
+  /* line 217, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .blog .button01 {
+    width: 23.28125vw;
+    background-color: #202037;
+    border-radius: 35px;
+    margin: 0 auto 14.1rem auto; }
+    /* line 17, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .blog .button01 a {
+      color: white;
+      font-size: 1.6rem;
+      display: block;
+      text-align: center;
+      padding: 2.7rem 0; }
+
+/* line 224, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.blog-articles ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 5.6rem; }
+
+/* line 229, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.blog-articles li {
+  width: 26.17188vw;
+  list-style-type: none;
+  position: relative; }
+  /* line 234, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .blog-articles li img {
+    width: 100%; }
+  /* line 238, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .blog-articles li figurecaption {
+    position: absolute;
+    top: 0;
+    width: 6.4rem;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #5B5C5C;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #707070; }
+  /* line 253, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .blog-articles li time {
+    display: block;
+    margin: 1.2rem 0;
+    font-size: 1.6rem;
+    font-family: 游ゴシック体, YuGothic,  游ゴシック, 'Yu Gothic';
+    font-weight: 500; }
+  /* line 261, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .blog-articles li dt {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #5B5C5C;
+    letter-spacing: 0.126em;
+    font-weight: 700; }
+  /* line 269, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .blog-articles li dd {
+    font-size: 1.6rem;
+    height: 7.2rem;
+    margin-bottom: 4rem;
+    letter-spacing: 0.126em;
+    font-weight: 500; }
+
+/* line 278, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.blog-articles h4 {
+  font-size: 2rem;
+  margin-bottom: 4.2rem;
+  color: #343434;
+  letter-spacing: 0.12em;
+  font-weight: 700; }
+
+/*access*/
+/* line 290, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+.access {
+  width: 100%;
+  margin-bottom: 16.1rem; }
+  /* line 294, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_index.scss */
+  .access #map {
+    width: 100%;
+    height: 40.732rem; }
+
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/*contact*/
+/* line 7, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_contact.scss */
+.contact {
+  width: 100%;
+  margin: 0 auto; }
+  /* line 11, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_contact.scss */
+  .contact p {
+    margin-bottom: 4.9rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #252525;
+    text-align: center; }
+  /* line 19, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_contact.scss */
+  .contact .button02 {
+    width: 40.625vw;
+    background: linear-gradient(90deg, #364d6a 0%, #599dc0 100%);
+    border-radius: 100px;
+    margin: 0 auto 10.1rem auto; }
+    /* line 31, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .contact .button02 a {
+      color: white;
+      font-size: 3.2rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      display: block;
+      text-align: center;
+      padding: 2.7rem 0; }
+  /* line 25, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_contact.scss */
+  .contact-form {
+    position: relative;
+    width: 65.625vw;
+    margin: 61.1rem auto 20.9rem auto; }
+    /* line 30, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_contact.scss */
+    .contact-form h3 {
+      margin-bottom: 23.1rem;
+      font-size: 3.2rem;
+      color: #5B5C5C;
+      letter-spacing: 0.12em;
+      text-align: center; }
+    /* line 39, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_contact.scss */
+    .contact-form label {
+      width: 100%;
+      height: 3.4rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #212138;
+      letter-spacing: 0.12em; }
+    /* line 50, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_contact.scss */
+    .contact-form input[type="text"], .contact-form input[type="number"], .contact-form input[type="email"] {
+      width: 100%;
+      height: 7.8rem;
+      margin-top: 4.4rem;
+      margin-bottom: 9.8rem;
+      font-size: 2rem;
+      color: #343434;
+      letter-spacing: 0.15em;
+      border: none;
+      border-bottom: 1px solid #ADADAD;
+      background-color: none; }
+    /* line 63, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_contact.scss */
+    .contact-form input[type="submit"] {
+      width: 40.625vw;
+      background: linear-gradient(90deg, #364d6a 0%, #599dc0 100%);
+      border-radius: 100px;
+      margin: 0 auto;
+      color: white;
+      font-size: 3.2rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      display: block;
+      text-align: center;
+      padding: 2.7rem 0;
+      border: none; }
+      /* line 31, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+      .contact-form input[type="submit"] a {
+        color: white;
+        font-size: 3.2rem;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        display: block;
+        text-align: center;
+        padding: 2.7rem 0; }
+    /* line 77, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_contact.scss */
+    .contact-form textarea {
+      width: 100%;
+      height: 34.7rem;
+      margin-top: 4.4rem;
+      margin-bottom: 9.8rem;
+      font-size: 1.6rem;
+      color: #343434;
+      letter-spacing: 0.15em;
+      border: 1px solid #ADADAD;
+      background-color: none; }
+
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/*sub-top*/
+/* line 7, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 77.89062vw;
+  height: 25.5rem;
+  background-color: #FAFAFA;
+  margin: 0 auto;
+  position: relative;
+  top: 89.7rem; }
+  /* line 16, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+  .about-text01 {
+    width: 23.82812vw;
+    margin-right: 4.1rem;
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #444444;
+    letter-spacing: 0.12em;
+    line-height: 1.5; }
+  /* line 26, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+  .about-text02 {
+    width: 37.96875vw;
+    font-size: 2rem;
+    color: #444444;
+    letter-spacing: 0.02em;
+    line-height: 2; }
+
+/* line 36, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+.about-intro {
+  position: relative;
+  margin: 119.8rem auto 11.3rem auto;
+  width: 77.89062vw; }
+  /* line 43, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+  .about-intro h2 {
+    font-size: 2.4rem;
+    color: #444444;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    line-height: 1.3;
+    padding-left: 1.1rem;
+    margin-bottom: 4.5rem; }
+  /* line 54, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+  .about-intro p {
+    height: 31.5rem;
+    columns: 2;
+    column-gap: 4rem;
+    column-fill: auto;
+    font-size: 1.4rem;
+    color: #444444;
+    letter-spacing: 0.08em;
+    line-height: 2; }
+
+/* line 66, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+.about-officedata {
+  width: 100%;
+  padding: 16.1rem 0 13.3rem 0;
+  background-color: #FAFAFA; }
+  /* line 71, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+  .about-officedata-content {
+    width: 69.14062vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+  /* line 78, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+  .about-officedata-text {
+    width: 34.45312vw; }
+    /* line 81, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+    .about-officedata-text h3 {
+      margin-bottom: 5.4rem;
+      font-size: 3.6rem;
+      color: #212F41;
+      letter-spacing: 0.15em; }
+    /* line 88, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+    .about-officedata-text p {
+      margin-bottom: 2.7rem;
+      font-size: 2rem;
+      color: #505050;
+      font-weight: 600;
+      letter-spacing: 0.12em; }
+  /* line 100, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+  .about-officedata-photo {
+    width: 34.60938vw; }
+    /* line 103, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_about.scss */
+    .about-officedata-photo img {
+      width: 100%; }
+
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/* service */
+/* line 5, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+.service-content {
+  position: relative;
+  width: 100%;
+  border: 15px solid #F2F2F2;
+  margin: 101.9rem auto 11.3rem auto; }
+  /* line 11, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .service-content ul {
+    width: 83.90625vw;
+    margin: 0 auto;
+    padding: 15.9rem 0 6.5rem; }
+  /* line 17, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .service-content li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 11.6rem; }
+  /* line 23, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .service-content-text {
+    width: 41.64062vw;
+    margin-right: 3rem; }
+    /* line 27, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+    .service-content-text01 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 41.64062vw;
+      margin-bottom: 3rem; }
+      /* line 44, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+      .service-content-text01 h3, .service-content-text01 p {
+        font-size: 2.4rem; }
+      /* line 49, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+      .service-content-text01 h3 {
+        background-color: #202037;
+        padding: 2.1rem 0rem;
+        width: 7.26563vw;
+        text-align: center;
+        color: white;
+        letter-spacing: 0.15em; }
+      /* line 59, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+      .service-content-text01 p {
+        color: #212138;
+        font-weight: 600;
+        padding-left: 4.5rem;
+        letter-spacing: 0.11em; }
+    /* line 36, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+    .service-content-text02 p {
+      margin-bottom: 3rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 0.11em;
+      line-height: 1.71; }
+    /* line 45, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+    .service-content-text03 {
+      width: 37.26562vw;
+      padding: 5.7rem 0;
+      background-color: #FAFAFA; }
+      /* line 50, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+      .service-content-text03 div {
+        width: 27.5vw;
+        margin: 0 auto; }
+      /* line 55, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+      .service-content-text03 .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap; }
+        /* line 58, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+        .service-content-text03 .title .wquotation {
+          font-size: 6.4rem;
+          font-family: 游ゴシック体, YuGothic,  游ゴシック, 'Yu Gothic';
+          color: #202037;
+          opacity: 0.2; }
+        /* line 66, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+        .service-content-text03 .title h3 {
+          margin-top: 0.5rem;
+          font-size: 2rem;
+          color: #212138;
+          font-weight: 600;
+          letter-spacing: 0.1em;
+          line-height: 1.5;
+          text-align: center; }
+      /* line 77, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+      .service-content-text03 p {
+        font-size: 1.4rem;
+        margin-bottom: 1.4rem;
+        letter-spacing: 0.1em; }
+      /* line 83, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+      .service-content-text03 .button01 {
+        width: 23.28125vw;
+        background-color: #202037;
+        border-radius: 35px;
+        margin: 4.3rem auto 0rem auto; }
+        /* line 17, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+        .service-content-text03 .button01 a {
+          color: white;
+          font-size: 1.6rem;
+          display: block;
+          text-align: center;
+          padding: 2.7rem 0; }
+
+/* price */
+/* line 95, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+.price-nav {
+  position: relative;
+  width: 100%;
+  margin: 39.9rem auto 10.8rem auto;
+  border-bottom: 1px solid #202037; }
+  /* line 101, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-nav ul {
+    width: 78.4375vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+  /* line 107, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-nav li {
+    width: 16.01562vw;
+    height: 10.7rem; }
+    /* line 111, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+    .price-nav li a {
+      display: block;
+      margin: 0 auto;
+      text-align: center; }
+    /* line 117, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+    .price-nav li h2 {
+      font-size: 2.4rem;
+      color: #212138;
+      margin: 2.9rem auto 1.5rem auto; }
+    /* line 124, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+    .price-nav li img {
+      width: 1.71563vw; }
+
+/* line 132, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+.price-content {
+  width: 95.07812vw;
+  margin: 0 auto; }
+  /* line 136, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-content ul {
+    margin-bottom: 28.4rem; }
+  /* line 140, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-content li {
+    margin-bottom: 14.3rem; }
+  /* line 144, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-content-text01 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3.4rem; }
+    /* line 44, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .price-content-text01 h3, .price-content-text01 p {
+      font-size: 2.4rem; }
+    /* line 49, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .price-content-text01 h3 {
+      background-color: #202037;
+      padding: 2.1rem 0rem;
+      width: 7.26563vw;
+      text-align: center;
+      color: white;
+      letter-spacing: 0.15em; }
+    /* line 59, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .price-content-text01 p {
+      color: #212138;
+      font-weight: 600;
+      padding-left: 4.5rem;
+      letter-spacing: 0.11em; }
+  /* line 151, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-content h4 {
+    margin-bottom: 2.3rem;
+    font-size: 2rem;
+    color: #212138; }
+  /* line 157, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-content-text-p {
+    margin-bottom: 4.8rem;
+    font-size: 1.4rem;
+    color: #212138; }
+  /* line 69, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+  .price-content-table01 table {
+    width: 100%;
+    margin-bottom: 4.3rem; }
+  /* line 74, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+  .price-content-table01 th, .price-content-table01 td {
+    padding: 1.5rem 0; }
+  /* line 78, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+  .price-content-table01 th {
+    border-bottom: 9px solid #202037;
+    color: #202037;
+    text-align: left; }
+    /* line 83, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .price-content-table01 th:nth-child(1) {
+      width: 45.15625vw; }
+    /* line 86, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .price-content-table01 th:nth-child(2) {
+      width: 21.64062vw; }
+    /* line 89, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .price-content-table01 th:nth-child(3) {
+      width: 28.125vw; }
+  /* line 95, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+  .price-content-table01 td {
+    border: 1px solid #212138;
+    height: 4.3rem; }
+  /* line 166, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-content-table01 th {
+    font-size: 1.4rem; }
+    /* line 170, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+    .price-content-table01 th:nth-child(1) {
+      padding-left: 0.5rem; }
+    /* line 173, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+    .price-content-table01 th:nth-child(2) {
+      padding-left: 4.2rem; }
+    /* line 176, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+    .price-content-table01 th:nth-child(3) {
+      padding-left: 3.7rem; }
+  /* line 183, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-content-table01 td:nth-child(1) {
+    background-color: #F2F2F2; }
+  /* line 69, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+  .price-content-table02 table {
+    width: 100%;
+    margin-bottom: 4.3rem; }
+  /* line 74, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+  .price-content-table02 th, .price-content-table02 td {
+    padding: 1.5rem 0; }
+  /* line 78, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+  .price-content-table02 th {
+    border-bottom: 9px solid #202037;
+    color: #202037;
+    text-align: left; }
+    /* line 83, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .price-content-table02 th:nth-child(1) {
+      width: 45.15625vw; }
+    /* line 86, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .price-content-table02 th:nth-child(2) {
+      width: 21.64062vw; }
+    /* line 89, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+    .price-content-table02 th:nth-child(3) {
+      width: 28.125vw; }
+  /* line 95, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/1-setting/_mixin.scss */
+  .price-content-table02 td {
+    border: 1px solid #212138;
+    height: 4.3rem; }
+  /* line 193, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-content-table02 th {
+    padding-left: 3.5rem;
+    font-size: 2rem; }
+  /* line 200, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_service.scss */
+  .price-content-table02 tr:nth-child(odd):not(.off) {
+    background-color: #F2F2F2; }
+
+/* テキストカラー */
+/* ヘッダー文字*/
+/* 英字タイトル、サービステキスト、ブログテキスト */
+/* サービスサブタイトル */
+/* ブログタイトル */
+/* ブログ画像左上インデックス */
+/* ニューステキスト */
+/* まずはメールでお気軽に */
+/* 背景カラー */
+/* ヘッダー背景*/
+/* サービスタイトルテキスト背景*/
+/* 詳しく見るボタン背景、フッター背景 */
+/* line 4, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+.blog-content {
+  position: relative;
+  width: 100%;
+  margin: 51.2rem auto 11.3rem auto; }
+  /* line 9, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-content-pages {
+    margin: 12.7rem 0; }
+    /* line 12, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+    .blog-content-pages ul {
+      width: 26.17188vw;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
+    /* line 19, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+    .blog-content-pages li {
+      width: 3.51562vw;
+      height: 4.5rem;
+      border: 1px solid #707070; }
+      /* line 24, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+      .blog-content-pages li a {
+        display: block;
+        color: #202037;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 4.5rem;
+        text-align: center; }
+        /* line 32, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+        .blog-content-pages li a:hover, .blog-content-pages li a:active {
+          background-color: #202037;
+          color: white; }
+      /* line 38, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+      .blog-content-pages li:last-child {
+        background: url(images/blog_img_arrow01.png) no-repeat 50% 50%; }
+
+/* line 47, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+.blog-article {
+  position: relative;
+  width: 56.01562vw;
+  margin: 19.4rem auto 14.7rem auto; }
+  /* line 53, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-article .title time {
+    margin-bottom: 0.9rem;
+    font-size: 1.6rem;
+    color: #A4ABB0;
+    font-weight: 600; }
+  /* line 60, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-article .title dt {
+    margin-bottom: 1.9rem;
+    font-size: 3.2rem;
+    color: #5B5C5C;
+    line-height: 1.5;
+    letter-spacing: 0.12em;
+    font-weight: 600; }
+  /* line 69, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-article .title figure {
+    width: 56.01562vw;
+    margin-bottom: 6rem; }
+    /* line 73, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+    .blog-article .title figure img {
+      width: 100%; }
+  /* line 78, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-article .title dd {
+    margin-bottom: 6rem;
+    font-size: 1.6rem;
+    color: #343434;
+    line-height: 1.3;
+    letter-spacing: 0.12em; }
+  /* line 88, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-article-content h2 {
+    margin-bottom: 5.5rem;
+    font-size: 3.2rem;
+    color: #343434;
+    line-height: 8.8rem;
+    letter-spacing: 0.12em;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070; }
+  /* line 98, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-article-content p {
+    margin-bottom: 2.7rem;
+    font-size: 1.6rem;
+    color: #343434;
+    line-height: 1.3;
+    letter-spacing: 0.12em; }
+  /* line 106, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-article-content h3 {
+    margin: 8.2rem  0 2.3rem;
+    padding-left: 2.3rem;
+    background-color: #F2F2F2;
+    font-size: 2rem;
+    color: #343434;
+    line-height: 6rem;
+    letter-spacing: 0.14em; }
+  /* line 116, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-article-content figure {
+    margin: 8.3rem auto 0 auto;
+    width: 31.95312vw; }
+    /* line 120, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+    .blog-article-content figure img {
+      width: 100%; }
+  /* line 126, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+  .blog-article-sub {
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 10.4rem 0 9rem;
+    margin-bottom: 9rem; }
+    /* line 133, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+    .blog-article-sub .sns {
+      width: 55.54687vw;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0 auto 10.5rem; }
+      /* line 139, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+      .blog-article-sub .sns .img {
+        width: 24.53125vw;
+        height: 21.6rem;
+        overflow: hidden; }
+        /* line 145, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+        .blog-article-sub .sns .img img {
+          width: 100%; }
+      /* line 150, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+      .blog-article-sub .sns-text {
+        width: 30.85938vw; }
+        /* line 153, /Users/uetanoriko/Desktop/メンタ課題４/menta_works_fujioka-office/css/4-page/_blog.scss */
+        .blog-article-sub .sns-text a {
+          display: block;
+          box-sizing: border-box;
+          background-color: white;
+          border: 1px solid #D0D0D0;
+          font-size: 1.6rem;
+          color: #343434;
+          letter-spacing: 0.12em;
+          line-height: 10.6rem;
+          text-align: center;
+          font-weight: 600; }
+
+/*# sourceMappingURL=stylesheet.css.map */

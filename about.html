@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+  </head>
+            
+  <body>
+
+    <header class="header">
+        <div class="container">
+        <div class="header-content">
+            <div class="header-left">
+                <a href="index.html"><img src="images/index_logo_01.png" srcset="images/index_logo_01.png 1x, images/index_logo_01@2x.png 2x" alt="藤岡設計事務所ロゴ">
+                    </a></div>
+            <div class="header-right">
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="price.html">Price</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+
+        
+    </header>
+      
+      
+    <main> 
+        <section class="sub-top-wrapper" id="top">
+            <div class="sub-mv-text">
+                <h4>About</h4>
+            </div>
+
+            <div  class="sub-mv" style="
+                background: url('images/index_img_slider_03@2x.jpg');
+                background-size:cover; 
+                background-position:center;">
+            </div>
+
+        </section>
+        
+        <div class="about-text">
+                <p class="about-text01">Support your<br>web service</p>
+                <p class="about-text02">webを通して人々の心や生活が豊かになるよう、<br>
+                    法律の面からサポートいたします。</p>  
+        </div>
+        
+        <section class="about-intro">
+            
+            <h2> 制作会社での経歴を活かしたご提案ができます</h2>
+            <p>私はこれまでにIT系企業においてweb制作、新規webサービスの立ち上げ、ファンクラブビジネスを経験し「webが持つ可能性」を信じるようになりました。<br>
+    「webが持つ可能性」とはwebを通して人々の心や生活がもっと豊かになっていくことです。
+<br><br>               
+    当事務所ではIT法務（契約書作成や各種許認可手続きなど）を中心に、海外技術者のビザ手続き、そしてwebを介した新たなビジネスモデルとして評判の民泊（登録手続き）など、広くwebに関する手続きのサポートを行ってまいります。<br><br>             
+    書類作成など法律面からあなたのwebサービスのサポートをします。<br>
+    新たなwebサービスが生まれ、そのサービスを利用することで多くの人々の心や生活が豊かになる。<br>
+    そしていつか日本が世界のIT分野をリードする日がくることを願っています。
+
+     </p>
+        
+        
+        </section>
+        
+        <section class="about-officedata">
+            
+            <div class="about-officedata-content">
+                <div class="about-officedata-text">
+                    <h3>Office Data</h3>
+                    <p>名称：藤岡行政書士事務所</p>
+                    <p>代表：藤岡雅也</p>
+                    <p>行政書士番号:0000000000000</p>
+                    <p>取り扱い案件:労務、民泊、Visa</p>
+                    <p>電話番号:06-5555-5555</p>
+                    <p>FAX:06-5555-5555</p>
+                    <p>住所</p>
+                
+                </div>
+                
+                <div class="about-officedata-photo">
+                    <figure>
+                    <img src="images/about_img_fujioka.jpg" srcset="images/about_img_fujioka.jpg 1x, images/about_img_fujioka@2x.jpg 2x" alt="代表：藤岡雅也">
+                    </figure>
+                
+                </div>
+            
+            </div>
+            
+        </section>
+        
+        
+        <section class="access" id="access">
+
+            <div id="map"></div>
+                <script>
+                  var map;
+                  function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                      center: {lat: 35.017224, lng: 135.756377},
+                      zoom: 17
+                    });
+                  }
+
+                </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD36cmAQH0VhKEbK88R9J2MvBEgrTjO_-w&callback=initMap"
+    async defer></script>
+            
+        </section>
+ 
+        
+        <section class="contact" id="contact">
+            <p>まずはメールでお気軽にお問い合わせください</p>
+            <div class="button02"><a href="#">CONTACT</a></div>
+
+        </section>
+        
+
+    </main>
+
+    <footer>
+    </footer>
+
+
+  </body>
+</html>
