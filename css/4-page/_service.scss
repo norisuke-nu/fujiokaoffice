@@ -1,0 +1,218 @@
+@import "../1-setting/color";
+@import "../1-setting/mixin";
+
+/* service */
+.service-content{
+    position:relative;
+    width:100%;
+    border:15px solid #F2F2F2;
+    margin:101.9rem auto 11.3rem auto;
+    
+    ul{
+        width:(1074/1280)*100vw;
+        margin: 0 auto;
+        padding:15.9rem 0 6.5rem;
+    }
+    
+    li{
+        list-style: none;
+        @include flex(center, center);
+        margin-bottom:11.6rem;
+    }
+    
+    &-text{
+        width:(533/1280)*100vw;
+        margin-right:3rem;
+        
+        &01{
+            @include flex(flex-start, center);
+            width:(533/1280)*100vw;
+            margin-bottom:3rem;
+            @include service-text01;
+            
+        }
+        
+        &02{
+             p{
+                 margin-bottom:3rem;
+                 font-size:1.4rem;
+                 font-weight: 500;
+                 letter-spacing: 0.11em;
+                 line-height:1.71;
+             }
+        }
+        
+        &03{
+            width:(477/1280)*100vw;
+            padding:5.7rem 0;
+            background-color:$header-bg-color;
+            
+            div{
+                width:(352/1280)*100vw;
+                margin:0 auto;
+            }
+            
+            .title{
+                @include flex(space-between, start);
+
+                .wquotation{
+                    font-size:6.4rem;
+                    font-family:游ゴシック体, YuGothic,  游ゴシック, 'Yu Gothic';
+                    color:$service-bg-color;
+                    opacity: 0.2;
+                }
+               
+
+                h3{
+                    margin-top:0.5rem;
+                    font-size:2rem;
+                    color:$service-subtit-color;
+                    font-weight: 600;
+                    letter-spacing: 0.1em;
+                    line-height: 1.5;
+                    text-align: center;
+                }
+            }
+            
+            p{
+                font-size:1.4rem;
+                margin-bottom:1.4rem;
+                letter-spacing: 0.1em;
+            }
+            
+            .button01{
+                @include button01(298);
+                margin:4.3rem auto 0rem auto;
+                
+            }
+        }
+    }
+  
+    
+}
+
+/* price */
+.price-nav{
+    position:relative;
+    width:100%;
+    margin:39.9rem auto 10.8rem auto;
+    border-bottom:1px solid $service-bg-color;
+    
+    ul{
+        width:(1004/1280)*100vw;
+        margin:0 auto;
+        @include flex(space-between, center);
+    }
+    
+    li{
+        width:(205/1280)*100vw;
+        height:10.7rem;
+        
+        a{
+            display: block;
+            margin:0 auto;
+            text-align: center;
+        }
+        
+        h2{
+            font-size:2.4rem;
+            color:$service-subtit-color;
+            margin:2.9rem auto 1.5rem auto;
+            
+        }
+        
+        img{
+            width:(21.96/1280)*100vw;
+            
+        }
+        
+    }
+}
+
+.price-content{   
+    width:(1217/1280)*100vw;
+    margin:0 auto;
+    
+    ul{
+        margin-bottom:28.4rem;
+    }
+    
+    li{
+        margin-bottom:14.3rem;
+    }
+    
+    &-text01{
+        @include flex(flex-start, center);
+        @include service-text01;
+        margin-bottom:3.4rem;
+
+    }
+    
+    h4{
+        margin-bottom:2.3rem;
+        font-size:2rem;
+        color:$service-subtit-color;
+    }
+    
+    &-text-p{
+        margin-bottom:4.8rem;
+        font-size:1.4rem;
+        color:$service-subtit-color;
+    }
+    
+    &-table01{
+        @include price-table01;
+        
+        th{
+            
+            font-size:1.4rem;           
+            
+            &:nth-child(1){
+                padding-left:0.5rem;
+            }
+            &:nth-child(2){
+                padding-left:4.2rem;
+            }
+            &:nth-child(3){
+                padding-left:3.7rem;
+            }
+            
+        }
+        
+        td{
+            &:nth-child(1){
+                background-color:#F2F2F2;
+                
+            }
+        }
+    }
+    
+    &-table02{
+        @include price-table01;
+        
+        th{
+            padding-left:3.5rem;
+            font-size:2rem;           
+            
+        }
+        
+        tr{  
+            &:nth-child(odd):not(.off){
+                background-color:#F2F2F2;
+                
+            }
+            
+           
+        }
+        
+        
+        }
+}
+    
+
+
+        
+
+        
+
+

@@ -1,0 +1,92 @@
+@import "../1-setting/color";
+@import "../1-setting/mixin";
+
+
+/*contact*/
+
+.contact{
+    width:100%;
+    margin:0 auto;
+    
+    p{
+        margin-bottom: 4.9rem;
+        font-size:2rem;
+        font-weight:600;
+        color:$accent-font-color;
+        text-align: center;       
+    }
+    
+    .button02{
+        @include button02(520);
+            margin:0 auto 10.1rem auto;
+        
+    }
+    
+    &-form{
+        position:relative;
+        width:(840/1280)*100vw;
+        margin:61.1rem auto 20.9rem auto;
+        
+        h3{
+            margin-bottom: 23.1rem;
+            font-size:3.2rem;
+            color:$blog-subtit-color;
+            letter-spacing: 0.12em;
+            text-align: center;
+        }
+        
+            
+            label{
+                width:100%;
+                height:3.4rem;
+                font-size:1.8rem;
+                font-weight: 600;
+                color:$service-subtit-color;
+                letter-spacing: 0.12em;
+            }
+            
+            input{
+                
+            &[type="text"], &[type="number"], &[type="email"]{
+                width:100%;
+                height:7.8rem;
+                margin-top:4.4rem;
+                margin-bottom: 9.8rem;
+                font-size:2rem;
+                color:$blog-index-color;
+                letter-spacing: 0.15em;
+                border:none;
+                border-bottom:1px solid #ADADAD;
+                background-color:none;   
+            }
+            
+            &[type="submit"]{
+                @include button02(520);
+                margin:0 auto;
+                color:white;
+                font-size:3.2rem;
+                font-weight: 600;
+                letter-spacing: 0.15em;
+                display: block;
+                text-align: center;
+                padding:2.7rem 0;
+                border:none;
+                }
+            }
+            
+            textarea{
+                width:100%;
+                height:34.7rem;
+                margin-top:4.4rem;
+                margin-bottom: 9.8rem;
+                font-size:1.6rem;
+                color:$blog-index-color;
+                letter-spacing: 0.15em;
+                border:1px solid #ADADAD;
+                background-color:none;     
+            }
+             
+            
+        
+    }
+}

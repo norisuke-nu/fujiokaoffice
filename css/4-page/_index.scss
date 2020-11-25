@@ -1,0 +1,304 @@
+@import "../1-setting/color";
+@import "../1-setting/mixin";
+
+/*top*/
+.top-wrapper {
+    position: relative;
+    top:11.3rem;
+    margin-bottom: 60.7rem;
+}
+
+.mv-text{
+    position: absolute;
+    top: 22.6rem;
+    left:13.1rem;
+    line-height: 1.5;
+    z-index: 999;
+    
+        @media (max-width:670px) {
+            position: absolute;
+            top: 15rem;            
+            }
+    h1{
+        font-size:6.4rem;
+        letter-spacing: 0.13em;
+        color:#fff;
+    }
+    
+    p{
+        font-size:2.4rem;
+        color:#fff;
+        letter-spacing: 0.1em;
+        margin-top: 1.3rem;
+    }
+}
+
+.top-text{
+    width:(726/1280)*100vw;
+    position:absolute;
+    top:61.8rem;
+    left:0;
+    @include gradient(90deg);
+    z-index: 999;
+    
+    div{
+        
+        width:(446/1280)*100vw;
+        margin:9.7rem auto 6.8rem auto;
+        
+    
+        h2{
+            font-size: 2.4rem;
+            color:#fff;
+            font-weight: normal;
+            letter-spacing: 0.08em;
+            line-height: 1.3;
+            margin-bottom: 4.5rem;
+
+        }
+
+        p{
+            font-size: 1.6rem;
+            color:#fff;
+            letter-spacing: 0.15em;
+            line-height: 2;
+        }
+    
+        @media (max-width:670px) {
+            font-size: 6rem;
+            margin-bottom:1rem;   
+            } 
+    }
+
+}
+
+/* news */
+.news{
+    width:(643/1280)*100vw;
+    position:absolute;
+    top:82.6rem;
+    right: 0;
+    background-color:$header-bg-color;
+    z-index: 999;
+    
+    div{
+        width:(489/1280)*100vw;
+        margin:8.8rem auto 6.5rem 4.9rem;
+        
+    
+        h3{
+            font-size: 2.4rem;
+            letter-spacing: 0.13em;
+            margin-bottom: 4.1rem;
+
+        }
+    }
+
+    .news-table{
+        
+        border-collapse: separate;
+        width:(500/1280)*100vw;
+        
+        tr{
+            color:$news-font-color;    
+        }
+        
+        th{
+            color:$news-font-color; 
+            font-size:1.6rem;
+            padding:0 4.7rem 0 0.6rem;
+        }
+        
+        td{
+            color:$news-font-color;
+            font-size:1.4rem;
+            padding-bottom:4.7rem;
+        }
+    }
+
+
+}
+
+/* service */
+.service{  
+    
+        h4{
+            font-size: 4.8rem;
+            letter-spacing: 0.13em;
+            margin-bottom: 6.8rem;
+        }
+        
+        .button01{
+            @include button01(298);
+            margin:0 auto 14.1rem auto;
+
+ 
+
+        }
+}
+
+.service-articles{
+    
+    ul{
+        @include flex(space-between,flex-end);
+        margin-bottom:5.6rem;
+    }
+    
+    li{
+        width:(328/1280)*100vw;
+        list-style-type: none;
+        
+        img{
+            width:100%;
+        }
+    
+    
+        .service-text{
+            width:100%;
+            margin:0 auto;
+
+            .title{
+                position:relative;
+                top:-2.4rem;
+                width:(293/1280)*100vw;
+                margin:0 auto 0.3rem auto;
+                @include flex(center,center);
+                text-align: center;
+
+                div{
+                    width:(60/1280)*100vw;
+                    padding:1.9rem 0;
+                    background-color:$service-bg-color;
+                    font-size:2rem;
+                    font-weight: 700;
+                    letter-spacing: 0.13em;
+                    color:white;
+
+                }
+                p{
+                    width:(227/1280)*100vw;
+                    padding:1.4rem 0;
+                    background-color:white;
+                    border:3px solid $service-bg-color;
+                    font-size:2.4rem;
+                    font-weight: bold;
+                    color:$service-subtit-color;
+
+
+                }
+            }
+
+            .text-contents{
+                width:(293/1280)*100vw;
+                font-size:1.6rem;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.126em;
+
+
+            }
+        }   
+    }
+}
+
+/* blog */
+.blog{ 
+    
+        border-top:1px solid #E2E2E2;
+        margin-bottom:21.5rem;
+        padding-top:11.7rem;
+    
+        h4{
+            font-size: 4.8rem;
+            letter-spacing: 0.13em;
+            margin-bottom: 5.1rem;
+        }
+        
+        .button01{
+            @include button01(298);
+            margin:0 auto 14.1rem auto;
+        }
+}
+
+.blog-articles{
+    ul{
+        @include flex(space-between,flex-end);
+        margin-bottom:5.6rem;
+    }
+    
+    li{
+        width:(335/1280)*100vw;
+        list-style-type: none;
+        position: relative;
+        
+        img{
+            width:100%;
+        }
+        
+        figurecaption{
+            position: absolute;
+            top:0;
+            width:6.4rem;
+            padding:0.6rem 0;
+            font-size:1rem;
+            font-weight:700;
+            color:$blog-subtit-color;
+            text-align: center;
+            background-color: white;
+            border:1px solid #707070;
+            
+            
+        }
+        
+        time{
+            display: block;
+            margin:1.2rem 0;
+            font-size:1.6rem;
+            font-family:游ゴシック体, YuGothic,  游ゴシック, 'Yu Gothic';
+            font-weight:500;
+        }
+        
+        dt{
+            font-size:2rem;
+            margin-bottom:1.5rem;
+            color:$blog-subtit-color;
+            letter-spacing: 0.126em;
+            font-weight:700;
+        }
+        
+        dd{
+            font-size:1.6rem;
+            height:7.2rem;
+            margin-bottom:4rem;
+            letter-spacing: 0.126em;
+            font-weight:500;
+        }
+    }
+    
+    h4{
+        font-size:2rem;
+        margin-bottom:4.2rem;
+        color:$blog-index-color;
+        letter-spacing: 0.12em;
+        font-weight:700;
+
+    }
+}
+
+/*access*/
+
+.access{
+    width:100%;
+    margin-bottom:16.1rem;
+    
+    #map{
+        width:100%;
+        height:40.732rem;
+    }
+
+}
+
+
+
+
+
